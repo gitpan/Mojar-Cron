@@ -1,0 +1,30 @@
+---
+abstract: 'Cron-style time patterns and algorithm'
+author:
+  - 'Nic Sandfield <niczero@cpan.org>'
+build_requires:
+  Test::More: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '6.30'
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.142690'
+license: artistic_2
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Mojar-Cron
+no_index:
+  directory:
+    - t
+    - inc
+    - test
+requires:
+  Mojar: '1.053'
+  Mojolicious: '5'
+  perl: '5.010001'
+resources:
+  bugtracker: http://github.com/niczero/mojar-cron/issues
+  homepage: http://niczero.github.com/mojar-cron/
+  license: http://www.opensource.org/licenses/artistic-license-2.0
+  repository: http://github.com/niczero/mojar-cron
+version: 0.231
